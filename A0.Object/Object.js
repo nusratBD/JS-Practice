@@ -45,7 +45,24 @@ output:
 ]
 */
 
-//Method: 06 : destructure
+//Method: 06 : entries
+const entries = Object.entries(shoppingCart);
+console.log(entries);
+/* 
+output:
+[
+  [ 'laptop', 1 ],
+  [ 'mouse', 1 ],
+  [ 'Keyboard', 3 ],
+  [ 'watch', 1 ],
+  [ 'pen', 5 ],
+  [ 'notebook', 3 ],
+  [ 'mobile', 1 ],
+  [ 'mug', 1 ]
+]
+*/
+
+//Method: 07 : destructure
 const {laptop, Keyboard, mouse, notebook, mug, pen} = shoppingCart;
 console.log(mug, pen);//output: 1 5
 
