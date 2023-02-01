@@ -45,6 +45,10 @@ output:
 ]
 */
 
+//Method: 06 : destructure
+const {laptop, Keyboard, mouse, notebook, mug, pen} = shoppingCart;
+console.log(mug, pen);//output: 1 5
+
 /* -------------------------------------------------
                 set object property
 ---------------------------------------------------- */
