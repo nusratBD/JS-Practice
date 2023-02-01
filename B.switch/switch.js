@@ -1,3 +1,4 @@
+//01
 const color = 'red';
 if(color==='green'){
     console.log('Color Green');
@@ -34,4 +35,28 @@ switch(color){
 
     default:
         console.log('Color White');
+}
+
+//02
+const signal = 'red';
+if(signal==='red'){
+    console.log('Danger');
+}
+else if(signal === 'yellow'){
+    console.log('Stop');
+}
+else if(signal==='green'){
+    console.log('Go');
+}
+
+switch(signal){
+    case('red'):
+    console.log('Switch Danger');
+    break;
+    case('yellow'):
+    console.log('Switch Yellow');
+    break;
+    case('green'):
+    console.log('Switch Green');
+    break;
 }
